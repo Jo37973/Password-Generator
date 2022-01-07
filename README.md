@@ -9,6 +9,8 @@ This page will be free of errors and will be deployed at a live URL. It will be 
 
 
 * *Screenshot of deployed site:*
+* ![Screenshot (11)](https://user-images.githubusercontent.com/92402053/148615668-14e987c7-cf07-4613-82ab-e9a060359f29.png)
+
 
 * *Link to deployed site:*  
 
