@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <!--This is the header of the page, Password Generator-->
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Password Generator</h1>
+      </header>
+
+      <!--This is the section below the Header that says "Generate a Password."-->
+
+      <div class="card">
+        <div class="card-header">
+          <h2>Create a Secure Password</h2>
+        </div>
+        <!--This is the area where the secure random password will generate-->
+        <div class="card-body">
+          <textarea readonly id="password" placeholder="Your Secure Password" aria-label="Generated Password"
+          ></textarea>
+        </div>
+        <div class="card-footer">
+          <!--This is the button that the user clicks to generate the password.-->
+          <button id="generate" class="btn">Create your password</button>
+        </div>
+      </div>
+    </div>
+    
+    <!--This is the link to the Java Script file.-->
+    <script src="script.js"></script>
+  </body>
+
+</html>
