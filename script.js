@@ -27,6 +27,11 @@ function createOptions() {
   // This prompts the user to select how long they want their password to be within the length limits of 8-128 characters.
   passwordLength = parseInt(prompt('How long would you like your password to be? Min. 8 - Max. 128 characters.'), 10);
 
+  //If the user selects less than 8 or more than 128 characters, this creates an error/alert message. If the user selects character amoutn in range, it will continue on. 
+  while (passwordLength >= 129 || passwordLength <=7) {
+    alert("Try again! Password length must be between 8 - 128 characters.")
+    passwordLength = parseInt(prompt)('How long would you like your password to be? Min. 8 - Max. 128 characters.');
+  }
   //Alerts to the user to select what characters to be used for the password.
   hasspecialCharacters = confirm('Do you want your password to include special characters? OK: Yes, Cancel: No.' );
 
