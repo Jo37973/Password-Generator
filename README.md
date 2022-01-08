@@ -2,11 +2,12 @@
 
 ## **My Task**
 
-I will modify the given starter code to create and enable a site that can create random passwords, from given criteria the user has chosen. This site will be using HTML, CSS, and JavaScript with responsive, functional, clean, and organized code. 
+I will modify the given starter code to create and enable a site that can create random passwords, from given criteria the user has chosen (ex: between 8 - 128 characters using various numbers, uppercase or lowercase letters, or special characters.). This site will be using HTML, CSS, and JavaScript with responsive, functional, clean, and organized code. 
 
 This page will be free of errors and will be deployed at a live URL. It will be user-friendly and easy to navigate with a clean appearance, while editing and modifying the code by applying the knowledge of and best practices and structure, etc. with HTML, CSS, and JavaScript.
 
 
+## Usage
 
 * *Screenshot of deployed site:*
 * ![Screenshot (11)](https://user-images.githubusercontent.com/92402053/148615668-14e987c7-cf07-4613-82ab-e9a060359f29.png)
@@ -39,8 +40,9 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page.
 
-Homework Source: © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+## Credits
 
+Homework Source: © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
 
 
 
